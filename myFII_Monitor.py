@@ -1,4 +1,3 @@
-
 import pandas_datareader as web
 import time
 from rich.console import Console
@@ -6,9 +5,7 @@ from rich.table import Table
 from rich.panel import Panel
 from rich import print
 from yahoo_fin.stock_info import get_dividends
-from utils.logo import logo
 
-logo("MyFII-MONITOR")
 print(Panel.fit("Desenvolvido por: Vinícius Azevedo"))
 
 while True:
